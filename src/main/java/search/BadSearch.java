@@ -2,13 +2,13 @@ package search;
 
 public class BadSearch implements ISearch {
     @Override
-    public Integer search(int[] input_arr, int item) {
-        for (int j : input_arr) {
-            if (j == item) {
+    public int searchElementIndex(int[] input_arr, int item) {
+        for (int j = 0; j < input_arr.length; j++) {
+            if (input_arr[j] == item) {
                 return j;
             }
         }
 
-        return null;
+        return -1;
     }
 }
