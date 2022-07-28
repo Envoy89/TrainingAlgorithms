@@ -2,13 +2,13 @@ package search;
 
 public class BinarySearch implements ISearch {
     @Override
-    public int searchElementIndex(int[] input_arr, int item) {
+    public int searchElementIndex(int[] inputArr, int item) {
         int start = 0;
-        int end = input_arr.length - 1;
+        int end = inputArr.length - 1;
 
         while(start <= end) {
             int mid = (start + end) / 2;
-            int value = input_arr[mid];
+            int value = inputArr[mid];
 
             if (item == value) {
                 return mid;

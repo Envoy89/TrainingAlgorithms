@@ -1,5 +1,5 @@
 package search;
 
 public interface ISearch {
-    int searchElementIndex(int[] input_arr, int item);
+    int searchElementIndex(int[] inputArr, int item);
 }
