@@ -15,7 +15,7 @@ class SearchTest {
 
     @ParameterizedTest
     @MethodSource("goodSimpleTest")
-    void binstySerachTest(int[] input_array, int searchValue, int expectedValue) {
+    void binarySearchTest(int[] input_array, int searchValue, int expectedValue) {
         Integer actualValue = binarySearch.searchElementIndex(input_array, searchValue);
 
         assertEquals(expectedValue, actualValue);
