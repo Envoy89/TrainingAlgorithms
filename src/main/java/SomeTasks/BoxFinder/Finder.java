@@ -1,4 +1,4 @@
-package BoxFinder;
+package SomeTasks.BoxFinder;
 
 import java.util.List;
 

@@ -1,14 +1,12 @@
-package BoxFinder;
+package SomeTasks.BoxFinder;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Getter
 @Setter
 @AllArgsConstructor
-public class Box implements Item {
-    private List<Item> items;
+public class Key implements Item {
+    private String value;
 }
