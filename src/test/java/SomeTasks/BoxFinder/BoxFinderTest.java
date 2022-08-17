@@ -1,9 +1,5 @@
-package BoxFinder;
+package SomeTasks.BoxFinder;
 
-import SomeTasks.BoxFinder.Box;
-import SomeTasks.BoxFinder.Finder;
-import SomeTasks.BoxFinder.Key;
-import SomeTasks.BoxFinder.Pepper;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -13,13 +9,13 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FinderTest {
-    Finder finder = new Finder();
+class BoxFinderTest {
+    BoxFinder boxFinder = new BoxFinder();
 
     @ParameterizedTest
     @MethodSource("testCases")
     void findKeyWithLoopTest(Box inputBox, Key expectedKey) {
-        Key actualValue = finder.findKeyWithLoop(inputBox);
+        Key actualValue = boxFinder.findKeyWithLoop(inputBox);
 
         if (expectedKey == null) {
             assertNull(actualValue);
@@ -31,7 +27,7 @@ class FinderTest {
     @ParameterizedTest
     @MethodSource("testCases")
     void findKeyWithRecursive(Box inputBox, Key expectedKey) {
-        Key actualValue = finder.findKeyWithRecursive(inputBox);
+        Key actualValue = boxFinder.findKeyWithRecursive(inputBox);
 
         if (expectedKey == null) {
             assertNull(actualValue);

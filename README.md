@@ -10,7 +10,7 @@
 
 [SomeTasks](https://github.com/Envoy89/TrainingAlgorithms/tree/master/src/main/java/SomeTasks/BoxFinder) --
 задачи без категории  
-[SomeTasks/BoxFinder](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/SomeTasks/BoxFinder/Finder.java)
+[SomeTasks/BoxFinder](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/SomeTasks/BoxFinder/BoxFinder.java)
  -- задача поиска ключа в коробке. Имеется можество коробок, в каждой из которых может быть предмет
  (бумага, ключ или другая коробка). Необходимо рекурсивно и без рекурсии найти один любой ключ в коробках.     
 [SomeTasks/SquareFinder](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/SomeTasks/SquareFinder/SquareFinder.java)

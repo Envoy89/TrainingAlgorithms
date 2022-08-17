@@ -2,7 +2,7 @@ package SomeTasks.BoxFinder;
 
 import java.util.List;
 
-public class Finder {
+public class BoxFinder {
     public Key findKeyWithLoop(Box mainBox) {
         List<Item> items = mainBox.getItems();
 
