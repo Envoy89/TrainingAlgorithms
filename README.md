@@ -14,4 +14,6 @@
  -- задача поиска ключа в коробке. Имеется можество коробок, в каждой из которых может быть предмет
  (бумага, ключ или другая коробка). Необходимо рекурсивно и без рекурсии найти один любой ключ в коробках.     
 [SomeTasks/SquareFinder](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/SomeTasks/SquareFinder/SquareFinder.java)
--- имеется участок в виде прямоугольника размерами x и y, необходимо разделить участок на одинаковые квадраты максимального размера 
+-- имеется участок в виде прямоугольника размерами x и y, необходимо разделить участок на одинаковые квадраты максимального размера  
+[SomeTasks/SumArrayElements](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/SomeTasks/SumArrayElements/SumArrayElements.java)
+-- подсчет суммы элементов в массиве с помощью и без рекурсии
