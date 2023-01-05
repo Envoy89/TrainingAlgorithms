@@ -7,6 +7,8 @@
 [sort](https://github.com/Envoy89/TrainingAlgorithms/tree/master/src/main/java/sort) -- алгоритмы сортировки  
 [sort/ChoiceSort](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/sort/ChoiceSort.java) -- 
 сортировка выбором  
+[sort/MergeSort](https://github.com/Envoy89/TrainingAlgorithms/blob/master/src/main/java/sort/MergeSort.java) --
+сортировка слиянием  
 
 [SomeTasks](https://github.com/Envoy89/TrainingAlgorithms/tree/master/src/main/java/SomeTasks/BoxFinder) --
 задачи без категории  

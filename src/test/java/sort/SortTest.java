@@ -11,13 +11,27 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SortTest {
 
+
     ISort choiceSort = new ChoiceSort();
+    ISort mergeSort = new MergeSort();
 
     @ParameterizedTest
     @MethodSource("testCases")
-    public void sortTest(int[] inputArr, int[] expectedResult) {
+    public void choiceSortTest(int[] inputArr, int[] expectedResult) {
         int[] actualResult = choiceSort.sort(inputArr);
 
+        testSort(actualResult, expectedResult);
+    }
+
+    @ParameterizedTest
+    @MethodSource("testCases")
+    public void mergeSortTest(int[] inputArr, int[] expectedResult) {
+        int[] actualResult = mergeSort.sort(inputArr);
+
+        testSort(actualResult, expectedResult);
+    }
+
+    private void testSort(int[] actualResult, int[] expectedResult) {
         if (expectedResult != null) {
             assertEquals(expectedResult.length, actualResult.length);
 
@@ -53,6 +67,14 @@ class SortTest {
                         },
                         new int[] {
                                 -9, -3, 1, 2, 2, 3, 4, 8, 45
+                        }
+                ),
+                Arguments.of(
+                        new int[] {
+                                -3, 2, 4, 8, 1, -9, 3, 45
+                        },
+                        new int[] {
+                                -9, -3, 1, 2, 3, 4, 8, 45
                         }
                 ),
                 Arguments.of(
